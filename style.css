@@ -1,0 +1,121 @@
+*,*::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1556px;
+    
+}
+.content_bar{
+height: 880px;
+max-width: 100%;
+}
+.img-fluid{
+    margin: 60px 0px;
+max-width: 100%;
+ height: auto; }
+.content{
+    margin: 0px 50px;
+    max-width: 100%;
+ height: auto;
+}
+.btns{
+    margin: 10px 50px 30px ;
+}
+.prime{
+   padding: 50px;
+   max-width: 100%;
+   height: auto;
+}
+
+  .clr-img{
+    float: right;
+    margin: 30px 50px;
+    max-width: 100%;
+    height: auto;
+  }
+@media (min-width:320px) and (max-width:1000px) {
+    .clr-img{
+        display: none;
+    }
+}
+.infrm{
+   padding: 0px 230px;
+   max-width: 100%;
+ height: auto;
+}
+.PORTFOLIO{
+    padding: 100px;
+}
+.col{
+   margin-right: 50px;
+   border-radius: 20px;
+   border-color: white;
+}
+
+  .button-container {
+    display: flex;
+    padding-top: 20px ;
+  }
+
+  .rounded-button {
+    font-size: 10px;
+    width: 100px;
+    height: 25px;
+    background-color: #E9DFFC;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .Cmnt{
+    height: 30px;
+    width: 220px;
+    background-color: #292929;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.btn-cmnt{
+    padding-top: 20px;
+}
+.Skills{
+    padding: 100px;
+}
+.grdn{
+    max-width: 100%;
+ height: auto;
+}
+.centered, .center {
+   text-align: center;
+   color: white;
+   
+}
+
+.containe{
+    width: 100%;
+    background-image: linear-gradient(to right, #FF6584, #fea167 ) ;
+    height: 700px;
+    padding: 100px ;
+}
+.Shield{
+    margin-left: 50%;
+    margin-top: 100px;
+}
+.grid { 
+    display: grid;
+    grid-template-rows: 60px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    }
+  .grid > div {
+    padding: .5em;
+    background: gold;
+    text-align: center;
+  }
+  col.{
+    width: 600px;
+    height: 300px;
+  }
+  
